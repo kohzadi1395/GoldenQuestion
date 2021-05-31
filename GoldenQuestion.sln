@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{E71007DC-C86E-4948-ADBB-F21D0EA37E01}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{4F9D2A41-2D11-4CA3-9F88-B572ACF04407}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{6FF2D1F4-F32D-4C46-8515-87F758EB10D9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoC", "IoC\IoC.csproj", "{7321B524-3D87-4A44-9271-A7DBCDEDCA66}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence", "Persistence\Persistence.csproj", "{F842B30C-6FC4-4ABF-BECA-86EEBC8B1973}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UI", "UI\UI.csproj", "{60D323C8-62CA-4FA4-A45D-6B70EBB8921E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E71007DC-C86E-4948-ADBB-F21D0EA37E01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E71007DC-C86E-4948-ADBB-F21D0EA37E01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E71007DC-C86E-4948-ADBB-F21D0EA37E01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E71007DC-C86E-4948-ADBB-F21D0EA37E01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F9D2A41-2D11-4CA3-9F88-B572ACF04407}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F9D2A41-2D11-4CA3-9F88-B572ACF04407}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F9D2A41-2D11-4CA3-9F88-B572ACF04407}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F9D2A41-2D11-4CA3-9F88-B572ACF04407}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FF2D1F4-F32D-4C46-8515-87F758EB10D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FF2D1F4-F32D-4C46-8515-87F758EB10D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FF2D1F4-F32D-4C46-8515-87F758EB10D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FF2D1F4-F32D-4C46-8515-87F758EB10D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7321B524-3D87-4A44-9271-A7DBCDEDCA66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7321B524-3D87-4A44-9271-A7DBCDEDCA66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7321B524-3D87-4A44-9271-A7DBCDEDCA66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7321B524-3D87-4A44-9271-A7DBCDEDCA66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F842B30C-6FC4-4ABF-BECA-86EEBC8B1973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F842B30C-6FC4-4ABF-BECA-86EEBC8B1973}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F842B30C-6FC4-4ABF-BECA-86EEBC8B1973}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F842B30C-6FC4-4ABF-BECA-86EEBC8B1973}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60D323C8-62CA-4FA4-A45D-6B70EBB8921E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60D323C8-62CA-4FA4-A45D-6B70EBB8921E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60D323C8-62CA-4FA4-A45D-6B70EBB8921E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60D323C8-62CA-4FA4-A45D-6B70EBB8921E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CABB5708-2FA6-4BE3-89DF-6B63A29AFFE3}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/kohzadi90
+		SccProjectUniqueName0 = IoC\\IoC.csproj
+		SccProjectName0 = IoC
+		SccLocalPath0 = IoC
+		SccProjectUniqueName1 = Persistence\\Persistence.csproj
+		SccProjectName1 = Persistence
+		SccLocalPath1 = Persistence
+		SccProjectUniqueName2 = UI\\UI.csproj
+		SccProjectName2 = UI
+		SccLocalPath2 = UI
+		SccLocalPath3 = .
+		SccProjectUniqueName4 = Application\\Application.csproj
+		SccProjectName4 = Application
+		SccLocalPath4 = Application
+		SccProjectUniqueName5 = Domain\\Domain.csproj
+		SccProjectName5 = Domain
+		SccLocalPath5 = Domain
+		SccProjectUniqueName6 = Infrastructure\\Infrastructure.csproj
+		SccProjectName6 = Infrastructure
+		SccLocalPath6 = Infrastructure
+	EndGlobalSection
+EndGlobal
